@@ -2,8 +2,8 @@ import React from 'react';
 
 function PrivateHome() {
     return (
-        <div className="App">
-            <header className="App-header">
+        <div>
+            <heade>
                 <p>
                     Hello friend
                 </p>
