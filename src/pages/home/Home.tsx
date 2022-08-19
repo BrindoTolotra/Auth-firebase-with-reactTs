@@ -8,12 +8,12 @@ const Home: React.FC<{ currentUser: any }> = (props) => {
     return (
         <div className="App">
             <header className="App-header">
-                <p>Authentication using <code>Firebase Auth</code> and <code>React</code></p>
+                <p>AuthenticationFirebase Auth with React</p>
                 {
                     currentUser ? (
-                        <p>YOU ARE LOGGED IN AS <code>{currentUser.email}</code></p>
+                        <p>Welcome  {currentUser.email} !</p>
                     ) : (
-                        <p>PLEASE LOG IN OR CREATE AN ACCOUNT</p>
+                        <p>You can log in or create an account</p>
                     )
                 }
                 {
@@ -29,5 +29,3 @@ const Home: React.FC<{ currentUser: any }> = (props) => {
         </div>
     )
 }
-
-export default Home;
